@@ -4,13 +4,35 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+/*
+
+
+
+Два окна. Перелистывающихся как страницы. На одном просто напоминания, на другом дни рождения.
+Соответственно две кнопки. Одна добавить напоминание. Другая добавить день рождения.
+
+
+ */
+
 
 public class MainActivity extends AppCompatActivity {
+
+    private ListView reminderList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        reminderList = (ListView) findViewById(R.id.ReminderList);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.reminders_raw, R.id.rawText,
+                new String[]{"first", "second", "third"});
+
+        reminderList.setAdapter(adapter);
+
     }
 
     @Override

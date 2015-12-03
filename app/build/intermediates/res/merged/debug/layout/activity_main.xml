@@ -5,5 +5,10 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <ListView
+        android:id="@+id/ReminderList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/reminders_raw"></ListView>
 </LinearLayout>
 <!-- From: file:/D:/severus/sources/android/IrinReminder/app/src/main/res/layout/activity_main.xml -->

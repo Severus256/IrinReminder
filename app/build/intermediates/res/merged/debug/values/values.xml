@@ -39,6 +39,11 @@
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
+    <!-- From: file:/D:/severus/sources/android/IrinReminder/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="leftRaw">#6cb058</color>
+    <!-- From: file:/D:/severus/sources/android/IrinReminder/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <eat-comment/>
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
     <color name="material_blue_grey_800">#ff37474f</color>
@@ -54,8 +59,18 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <!-- From: file:/D:/severus/sources/android/IrinReminder/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="rawtext">#ffffff</color>
+    <!-- From: file:/D:/severus/sources/android/IrinReminder/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <eat-comment/>
     <color name="ripple_material_dark">#4dffffff</color>
     <color name="ripple_material_light">#1f000000</color>
+    <!-- From: file:/D:/severus/sources/android/IrinReminder/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="rootLinear">#1a535b</color>
+    <!-- From: file:/D:/severus/sources/android/IrinReminder/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <eat-comment/>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
